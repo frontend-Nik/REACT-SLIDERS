@@ -1,0 +1,36 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  .music-img {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+  }
+  .music-topdDscription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    .music-title {
+      font-size: 22px;
+      text-transform: capitalize;
+    }
+    .music-subtitle {
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #fff7;
+    }
+    .likeIcon{
+        color: #fff;
+    }
+  }
+}
